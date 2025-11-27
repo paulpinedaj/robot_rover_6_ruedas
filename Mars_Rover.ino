@@ -1,13 +1,3 @@
-/*
- *    Mars Rover - Arduino Code
- *    by Dejan, www.HowToMechatronics.com
- * 
- *   Libraries:
- *   ServoEasing: https://github.com/ArminJo/ServoEasing
- *   IBusBM: https://github.com/bmellink/IBusBM
- *   AccelStepper:http://www.airspayce.com/mikem/arduino/AccelStepper/index.html
- */
-
 #include <Servo.h>
 #include <ServoEasing.h>
 #include <IBusBM.h>
@@ -372,3 +362,4 @@ void calculateServoAngle() {
   thetaOuterBack = round((atan((d2 / (r - d1)))) * 180 / PI);
 
 }
+
